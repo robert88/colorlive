@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>color live</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=IE8">
+    <link rel="stylesheet" type="text/css" href="./css/base.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/swiper.min.css"/>
+    <script src="./js/jquery-1.11.3.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/swiper.js"></script>
+    <style type="text/css">
+        body,html{
+            height: 100%;
+           min-height: 400px;
+
+        }
+        .pageWrap{
+            height: 100%;
+            overflow: hidden;
+            border: 1px solid green;
+            /*position: relative;*/
+        }
+        .wrap{
+            margin: 0 auto;
+            max-width: 960px;
+            min-width: 300px;
+        }
+        .height618{
+            height: 61.8%;
+        }
+        .height382{
+            height: 38.2%;
+        }
+        .fh100{
+            height: 100%;
+        }
+        .pageTop{
+            position: relative;
+        }
+        .mask{
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            opacity: .5;
+            background: url(./images/mask.png);
+            background-size: 100% 100%;
+        }
+             .user-page .pageTop .date{
+                color:#fff;
+            position: absolute;
+            top:50%;
+            left:50%;
+            margin:-72px 0 0 -44px;
+            border:2px solid #fff;
+            border-bottom-width: 20px;
+            padding:10px;
+            text-align: center;
+         }
+         .user-page .pageTop .day{
+            font-size: 48px;
+         }
+         .user-page .pageTop .dateType{
+            letter-spacing: 8px;
+            margin-left: 8px
+         }
+         .user-page .pageTop .img>img{
+            width: 8rem;
+            height:8rem;
+         }
+         .user-page .pageTop .year{
+            letter-spacing: 6px;
+            margin-left: 6px;
+         }
+         .user-page .pageTop .userwrap{
+            position: absolute;
+            bottom: 0rem;
+            left: 0px;
+            width: 0;
+            height: 0;
+            border-bottom: 9rem solid #fff;
+            border-right: 0rem solid #fff;
+            border-left: none;
+            border-top: none;
+        }
+        .user-page .pageTop .userinfo{
+           position: absolute;
+            bottom: -8rem;
+            right: 30px;
+            text-align: right;
+            font-size: 22px;
+            color:#989898;
+                width: 190px;
+        }
+         .user-page .pageBottom .title{
+            padding-top:2rem;
+            font-size:26px; 
+            line-height: 40px;
+                width: 299px;
+                text-align: center;
+            margin:0 auto;
+         }
+         .user-page .pageBottom .colorbg{
+            padding-top:1rem;
+         }
+        .pageWrap .arrow-top{
+            background: url(./images/8.png) no-repeat left top;
+            position: absolute;
+            left: 50%;
+            bottom: 0.5rem;
+            margin-left:-20px;
+            width: 40px;
+            height: 48px;
+            z-index: 999;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="wrap fh100">
+<article class="pageWrap swiper-container fh100" >
+    <a class="arrow-top"></a>
+    <div class="swiper-wrapper">
+            <!--s：page1-->
+            <section class="page swiper-slide user-page">
+                <div class="pageTop height618" style="background:url(http://picture.youth.cn/xwjx/201608/W020160824490539269755.jpg) no-repeat;background-size:100% 100%;">
+                    <div class="mask"></div>
+                    <div class="date">
+                        <p class="day">24</p>
+                        <p class="dateType">OCT</p>
+                        <p class="year">2016</p>
+                    </div>
+                    <div class="userwrap">
+                        <div class="userinfo">
+
+                        <p class="img"><img src="./images/def.jpg" class="bd-radius-per-50"></p>
+                        <p class="name">Johnny</p>
+                        <p>16.男.深圳.设计师</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="pageBottom">
+                    <p class="title">范冰冰在戛纳走红毯痛并快乐的一天</p>
+                    <p class="tc colorbg"><img src="./images/colorbg.jpg"></p>
+                    <p class="tc pt10"><img src="./images/6.png"/></p>
+                </div>
+            </section>
+            <!--e：page1-->
+        <style>
+            .my-wrap .pageTop .img{
+                position: absolute;
+                left:50%;
+                top:50%;
+                margin-left: -4rem;
+                margin-top:-5rem;
+                width:8rem;
+                height: 8rem;
+                overflow: hidden;
+            }
+            .my-wrap .pageTop .img>img{
+                width: 100%;
+                height: 100%;
+            }
+            .my-wrap .pageTop .labelGroup{
+                position:absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                color:#ffffff;
+                height: 100%;
+            }
+            .my-wrap pageTop .canvas{
+                position:absolute;
+                left: 0;
+                top: 0;
+            }
+            .my-wrap .pageTop .title{
+                position:absolute;
+                bottom: -8rem;
+                padding: 0.3rem 0.8rem;
+                background: #fff;
+                left:8rem;
+                border:1px solid #000;
+                width: 2rem;
+                font-weight: 700;
+                font-size: 2rem;
+            }
+        </style>
+             <!--s：page2 我的一天-->
+            <section class="page swiper-slide my-wrap">
+                <div class="pageTop height382">
+                    <div class="mask"></div>
+                    <ul class="labelGroup">
+                        <li>1达人</li>
+                        <li>2达人</li>
+                        <li>3达人达人</li>
+                        <li>4达人达人</li>
+                        <li>5达人达人</li>
+                        <li>6达人达3人</li>
+                    </ul>
+                    <canvas height="100%" width="100%" id="canvas"></canvas>
+                    <div class="img bd-radius-per-50">
+                        <img src="./images/def.jpg">
+                    </div>
+                    <div class="title">我的一天</div>
+                </div>
+                <div class="pageBottom">
+                    <ul class="">
+                            <li>
+                                <p class="img"><img src="./images/1.png"></p>
+                                <p class="title">工作:<span>40</span>%</p>
+                            </li>
+                            <li>
+                                <p class="img"><img src="./images/2.png"></p>
+                                <p class="title">工作:<span>40</span>%</p>
+                            </li>
+                            <li>
+                                <p class="img"><img src="./images/3.png"></p>
+                                <p class="title">工作:<span>40</span>%</p>
+                            </li>
+                    </ul>   
+                </div>
+            </section>
+            <!--e：page2 我的一天-->
+
+             <!--s：page3 自我分析-->
+            <section class="page swiper-slide">
+                <div class="pageTop height382">
+                    <div class="title">自我分析</div>
+                </div>
+                <div class="pageBottom">
+                    <ul class="text-group">
+                        <li>
+                         <div class="info-wrap">
+                            <p><img src="/"></p>
+                            <p>夜晚思想家</p>
+                            <p>睡觉<4h</p>
+                        </div>
+                        <div class="text">开心地到处蹦跶，妈妈也开心地笑了。这其
+                        </div>
+                    </li>
+                                          <li>
+                         <div class="info-wrap">
+                            <p><img src="/"></p>
+                            <p>夜晚思想家</p>
+                            <p>睡觉<4h</p>
+                        </div>
+                        <div class="text">开心地到处蹦跶，妈妈也开心地笑了。这其
+                        </div>
+                    </li>
+                                          <li>
+                         <div class="info-wrap">
+                            <p><img src="/"></p>
+                            <p>夜晚思想家</p>
+                            <p>睡觉<4h</p>
+                        </div>
+                        <div class="text">开心地到处蹦跶，妈妈也开心地笑了。这其
+                        </div>
+                    </li>
+                    </ul>
+                </div>
+            </section>
+            <!--e：page3 自我分析-->
+
+             <!--s：page4 同行比较-->
+            <section class="page swiper-slide">
+                <div class="pageTop height382">
+                    <div class="title">看看同行</div>
+                    <ul>
+                        <li><img src=""></li>
+                        <li>vs</li>
+                        <li>同行</li>
+                    </ul>
+                    <div>
+                        <p> <span class="process"></span></p>
+                        <p><span>12h</span> <span>4h</span></p>
+                    </div>
+                    <p>数据来自于100位全国的小伙伴</p>
+                </div>
+                <div class="pageBottom">
+                    <p class="title">夜喵族</p>
+                    <p>swiper插件怎么打开点击导航点时去切换要显示的内容，现在...</p>
+                </div>
+            </section>
+            <!--e：page4 同行比较-->
+
+             <!--s：page5 同城比较-->
+            <section class="page swiper-slide">
+                <div class="pageTop height382">
+                    <div class="title">看看同城</div>
+                    <ul>
+                        <li><img src=""></li>
+                        <li>vs</li>
+                        <li>同城</li>
+                    </ul>
+                    <div>
+                        <p> <span class="process"></span></p>
+                        <p><span>12h</span> <span>4h</span></p>
+                    </div>
+                    <p>数据来自于100位全国的小伙伴</p>
+                </div>
+                <div class="pageBottom">
+                    <p class="title">夜喵族</p>
+                    <p>swiper插件怎么打开点击导航点时去切换要显示的内容，现在...</p>
+                </div>
+            </section>
+            <!--e：page5 同城比较-->
+
+             <!--s：page6 全国比较-->
+            <section class="page swiper-slide">
+                <div class="pageTop height382">
+                    <div class="title">看看全国</div>
+                    <ul>
+                        <li><img src=""></li>
+                        <li>vs</li>
+                        <li>全国</li>
+                    </ul>
+                    <div>
+                        <p> <span class="process"></span></p>
+                        <p><span>12h</span> <span>4h</span></p>
+                    </div>
+                    <p>数据来自于100位全国的小伙伴</p>
+                </div>
+                <div class="pageBottom">
+                    <p class="title">夜喵族</p>
+                    <p>swiper插件怎么打开点击导航点时去切换要显示的内容，现在...</p>
+                </div>
+            </section>
+            <!--e：page6 全国比较-->
+    </div>
+</article>
+</div>
+
+</body>
+</html>
