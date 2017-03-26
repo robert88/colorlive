@@ -1,0 +1,51 @@
+body,html{
+	height: 100%;
+	min-height: 400px;
+
+}
+.pageWrap{
+	height: 100%;
+	overflow: hidden;
+	border: 1px solid green;
+	/*position: relative;*/
+}
+[v-cloak]{
+	display: none;
+}
+.pageWrap .arrow-top{
+	background: url(../images/8.png) no-repeat left top;
+	position: absolute;
+	left: 50%;
+	bottom: 0.5rem;
+	margin-left:-20px;
+	width: 40px;
+	height: 48px;
+	z-index: 999;
+}
+.wrap{
+	margin: 0 auto;
+	max-width: 960px;
+	min-width: 300px;
+}
+.height618{
+	height: 61.8%;
+}
+.height382{
+	height: 38.2%;
+}
+.fh100{
+	height: 100%;
+}
+.pageTop,.pageBottom{
+	position: relative;
+}
+.mask{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: .5;
+	background: url(../images/mask.png);
+	background-size: 100% 100%;
+}

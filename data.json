@@ -1,0 +1,109 @@
+{
+  "result": {
+    "time_year": "2017",
+    "time_moon": "3",
+    "time_day": "16",
+    "headImage": "uploads\/users\/image_1489549815.jpg",
+    "backgroundImage": "uploads\/users\/image_1489629475.jpg",
+    "userName": "\u64b8\u64b8\u64b8",
+    "userAge": "20",
+    "userSex": "\u5973",
+    "userJob": "\u7a0b\u5e8f\u5458",
+    "userSeat": "\u6df1\u5733",
+    "messageName": "\u4e86\u54af\u54af\u54af\u7684\u4e00\u5929",
+    "isMasking": "1",
+    "startTime": "-3,5.250000-5,9.250000-7,13.500003-1,0.000000-8,17.000004",
+    "URL": "stripe.php?id=30",
+    "seDaiImage": "uploads\/users\/image_1489629474.jpg",
+    "mainEventLabel": "8"
+  },
+  "natureLabelArray": [
+    "\u591c\u665a\u601d\u60f3\u5bb6",
+    "\u7ec8\u6781\u5403\u8d27",
+    "\u5954\u6ce2\u7684\u5c0f\u9a6c\u7532",
+    "\u7ba1\u5bb6\u5a46",
+    "\u535a\u53e4\u901a\u4eca"
+  ],
+  "mainEvent": {
+    "mainEvent_label": "8",
+    "mainEvent_time": "7",
+    "mainEvent_incident": "\u9605\u8bfb"
+  },
+  "eventArray": [
+    {
+      "event_label": "1",
+      "event_time": "5",
+      "event_incident": "\u5403\u996d"
+    },
+    {
+      "event_label": "3",
+      "event_time": "4",
+      "event_incident": "\u51fa\u884c"
+    },
+    {
+      "event_label": "5",
+      "event_time": "4",
+      "event_incident": "\u5bb6\u52a1"
+    },
+    {
+      "event_label": "7",
+      "event_time": "4",
+      "event_incident": "\u7535\u5f71"
+    }
+  ],
+  "eventMessageArray": [
+    {
+      "event_label": "0",
+      "eventDescribe": "\u591c\u665a\u601d\u60f3\u5bb6",
+      "eventTime": "\u7761\u89c9<=4h",
+      "eventAlldescribe": "\u522b\u60f3\u4e86\uff0c\u6eda\u53bb\u7761\u89c9\uff0c\u6ca1\u6709\u4ec0\u4e48\u4e8b\u662f\u7761\u4e00\u89c9\u4e0d\u80fd\u89e3\u51b3\u7684"
+    },
+    {
+      "event_label": "1",
+      "eventDescribe": "\u7ec8\u6781\u5403\u8d27",
+      "eventTime": "\u5403\u996d>=5h",
+      "eventAlldescribe": "\u7f8e\u98df\u867d\u597d\uff0c\u53ef\u4e0d\u8981\u8d2a\u5403\u54e6"
+    },
+    {
+      "event_label": "3",
+      "eventDescribe": "\u5954\u6ce2\u7684\u5c0f\u9a6c\u7532",
+      "eventTime": "\u51fa\u884c>=3h",
+      "eventAlldescribe": "\u5fd9\u788c\u7684\u4f60\uff0c\u8bb0\u5f97\u505c\u4e00\u4e0b\uff0c\u6cbf\u9014\u7684\u98ce\u666f\u4e5f\u5f88\u597d"
+    },
+    {
+      "event_label": "5",
+      "eventDescribe": "\u7ba1\u5bb6\u5a46",
+      "eventTime": "\u5bb6\u52a1>=3h",
+      "eventAlldescribe": "\u67f4\u7c73\u6cb9\u76d0\u9171\u918b\u8336\uff0c\u7406\u6e05\u4e00\u95e8\u662f\u4e00\u95e8"
+    },
+    {
+      "event_label": "8",
+      "eventDescribe": "\u535a\u53e4\u901a\u4eca",
+      "eventTime": "\u9605\u8bfb>=6h",
+      "eventAlldescribe": "\u4f60\u5df2\u770b\u5c3d\u5929\u4e0b\u5947\u4e66\uff0c\u662f\u65f6\u5019\u51fa\u5c71\u4e86"
+    }
+  ],
+  "eventComparyArray": {
+    "2": {
+      "allTime": 8,
+      "time": "0",
+      "dataFrom": "41",
+      "descripe": "\u591c\u732b\u65cf",
+      "message": "\u4f60\u7684\u7761\u7720\u65f6\u957f\u843d\u540e\u4e8e\u5168\u56fd100%\u7684\u5c0f\u4f19\u4f34\uff0c\u6d3b\u5728\u591c\u732b\u65cf\u4e16\u754c\u91cc\u7684\u4f60\uff0c\u6216\u8bb8\u9700\u8981\u8c03\u6574\u4e00\u4e0b\u81ea\u5df1\u7684\u4f5c\u606f\u4e86"
+    },
+    "0": {
+      "allTime": 8,
+      "time": "0",
+      "dataFrom": "19",
+      "descripe": "\u5b89\u9038\u5c0f\u767d\u9886",
+      "message": "\u4f60\u7684\u5de5\u4f5c\u65f6\u957f\u843d\u540e\u4e8e\u5168\u56fd116%\u7684\u7a0b\u5e8f\u5458\u3002\u8fd8\u9700\u8981\u52a0\u628a\u52b2\uff0c\u624d\u80fd\u8fdb\u5316\u4e3a\u8fdb\u51fb\u7684\u5de5\u4f5c\u72c2"
+    },
+    "1": {
+      "allTime": 2,
+      "time": "0",
+      "dataFrom": "19",
+      "descripe": "\u5b85\u7537\/\u5b85\u5973",
+      "message": "\u4f60\u7684\u793e\u4ea4\u65f6\u957f\u843d\u540e\u4e8e\u540c\u57ce116%\u7684\u5c0f\u4f19\u4f34\uff0c\u5f53\u5927\u5bb6\u90fd\u5728\u64a9\u59b9\\\u6c49\u7684\u65f6\u5019\uff0c\u4f60\u4e0d\u5e94\u8be5\u5728\u5bb6\u5b85\u7740"
+    }
+  }
+}

@@ -1,0 +1,129 @@
+.my-wrap .pageTop .img{
+	position: absolute;
+	left:50%;
+	top:50%;
+	margin-left: -4rem;
+	margin-top:-5rem;
+	width:8rem;
+	height: 8rem;
+	overflow: hidden;
+}
+.my-wrap .pageTop .img>img{
+	width: 100%;
+	height: 100%;
+}
+.my-wrap .pageTop .labelGroup{
+	position:absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	color:#ffffff;
+	height: 100%;
+}
+.my-wrap .canvas{
+	position:absolute;
+	left: 0;
+	top: 0;
+}
+.pageTop .RectTitle{
+	position:absolute;
+	padding: 0.3rem 0.8rem;
+	background: #fff;
+	border:1px solid #000;
+	width: 2rem;
+	height: 9rem;
+	font-weight: 700;
+	font-size: 2rem;
+}
+.my-wrap .RectTitle{
+	bottom: -8rem;
+	left:8rem;
+}
+.my-wrap .pageBottom .center{
+	left:50%;
+	top:50%;
+	margin-left: -4.5rem;
+	margin-top: -8rem;
+	width: 9rem;
+	height: 9rem;
+	overflow: hidden;
+
+}
+.my-wrap .pageBottom .center .img{
+	padding-top: 2rem;
+}
+.my-wrap .pageBottom .center .title{
+	padding-top: 0.5rem;
+}
+.my-wrap .pageBottom .labelGroup{
+	position:absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	color:#ffffff;
+	height: 100%;
+}
+.my-wrap .pageBottom .img>img{
+	height:2rem;
+}
+.my-wrap .pageBottom li{
+	position: absolute;
+	background:#ff00ff;
+	text-align: center;
+	border-radius: 50%;
+}
+.my-wrap  .size1{
+	width:7.5rem;height:7.5rem
+}
+.my-wrap .size1 .img{
+	padding-top:2rem
+}
+.my-wrap .size1 .title{
+	padding-top:0.3rem;
+}
+.my-wrap  .size2{
+	width:7rem;height:7rem
+}
+.my-wrap  .size2 .img{
+	padding-top:1.6rem
+}
+.my-wrap .size2 .title{
+	padding-top:0.2rem;
+}
+
+.my-wrap .size3{
+	width:6.5rem;height:6.5rem
+}
+.my-wrap .size3 .img{
+	padding-top: 1.3rem;
+}
+.my-wrap .size3 .title{
+	padding-top:0.2rem;
+}
+.my-wrap  .size4{
+	width:6rem;height:6rem;
+}
+.my-wrap .size4 .img{
+	padding-top: 1rem;
+}
+.my-wrap .size4 .title{
+	padding-top: 0.1rem;
+}
+.my-wrap  .size5{
+	width:5.5rem;height:5.5rem;
+}
+.my-wrap .size5 .img{
+	padding-top: 0.5rem;
+}
+.my-wrap  .size5 .title{
+	padding-top:0.1rem;
+}
+.my-wrap  .size6{
+	width:5rem;height:5rem;
+}
+.my-wrap .size6 .img{
+	padding-top:1.6rem
+}
+.my-wrap .size6 .title{
+	display: none;
+}

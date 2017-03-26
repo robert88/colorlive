@@ -1,0 +1,87 @@
+.vs-wrap .RectTitle{
+	top:50%;
+	margin-left:-1.8rem;
+	margin-top:-12.8rem;
+	left:50%;
+}
+.vs-wrap .pageTop .img{
+	width:8rem;
+	height: 8rem;
+	overflow: hidden;
+}
+.vs-wrap .pageTop .img>img{
+	width: 100%;
+	height: 100%;
+}
+.vs-wrap .vs-wrap{
+	text-align: center;
+	width: 100%;
+	position:absolute;
+	height:9.6rem;
+	top:50%;
+	color:#fff;
+	margin-top: -3.5rem;
+}
+.vs-wrap .vs-wrap li{
+	display: inline-block;
+	margin:0 1rem;
+	width:8rem;
+	vertical-align: top;
+}
+.vs-wrap .vs-space{
+	font-size: 6rem;
+}
+.vs-wrap .vs-text{
+	width: 8rem;
+	height: 8rem;
+	overflow: hidden;
+	font-size: 3rem;
+	line-height: 8rem;
+	background: #6bb9e6;
+	box-shadow: 0px 0px 1rem rgba(0,0,0,.3);
+}
+.vs-wrap  .vs-process-wrap {
+	position:absolute;
+	width: 100%;
+	text-align: center;
+	left: 50%;
+	top:50%;
+	margin-top: 5rem;
+	margin-left: -6rem;
+	width: 12rem;
+}
+.vs-wrap .process-wrap{
+	width: 12rem;
+	display: inline-block;
+	background: #fff;
+	height: 1rem;
+	border-radius: 1rem;
+	overflow: hidden;
+	text-align: left;
+}
+.vs-wrap .process-wrap .process{
+	display: block;
+	height: 100%;
+	background: #6bb9e6;
+}
+.vs-wrap .vs-process-text{
+	margin-top:1rem;
+	color:#fff;
+	text-align: left;
+	font-size: 2rem;
+}
+.vs-wrap .vs-result{
+	position:absolute;
+	bottom: 10px;
+	left:10px;
+	color:#fff;
+}
+.vs-wrap .pageBottom .title{
+	font-weight: 700;
+	font-size: 2rem;
+	text-align: center;
+	padding:2rem 0;
+}
+.vs-wrap .text{
+	padding:0 2rem;
+}
