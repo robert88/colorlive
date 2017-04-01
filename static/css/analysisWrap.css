@@ -25,9 +25,23 @@
 	color:#fff;
 	text-align: center;
 	margin: 0 auto;
+
 	line-height: 2rem;
 	background-image: url(../images/circleBg.png);
 	background-repeat: no-repeat;
+}
+@media screen and (max-width: 450px){
+	.analysis-wrap .info-wrap{
+		height: 8rem;
+		width: 8rem;
+		line-height: 1.6rem;
+	}
+	.analysis-wrap .info-wrap .img {
+		padding-top: 1rem;
+	}
+	.analysis-wrap .text-group li {
+		margin: 0rem;
+	}
 }
 .analysis-wrap .text-group li{
 	font-size: 1.2rem;

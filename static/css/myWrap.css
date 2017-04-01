@@ -25,19 +25,10 @@
 	left: 0;
 	top: 0;
 }
-.pageTop .RectTitle{
-	position:absolute;
-	padding: 0.3rem 0.8rem;
-	background: #fff;
-	border:1px solid #000;
-	width: 2rem;
-	height: 9rem;
-	font-weight: 700;
-	font-size: 2rem;
-}
+
 .my-wrap .RectTitle{
 	bottom: -8rem;
-	left:8rem;
+	left:1rem
 }
 .my-wrap .pageBottom .center{
 	left:50%;

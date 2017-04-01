@@ -1,25 +1,29 @@
 body,html{
 	height: 100%;
 	min-height: 400px;
-
+background: #f1f1f1;
 }
 .pageWrap{
 	height: 100%;
 	overflow: hidden;
-	border: 1px solid green;
+	background: #fff;
 	/*position: relative;*/
 }
 [v-cloak]{
 	display: none;
 }
+.swiper-slide{
+	overflow: hidden;
+}
 .pageWrap .arrow-top{
 	background: url(../images/8.png) no-repeat left top;
 	position: absolute;
+	background-size: 100% 100%;
 	left: 50%;
 	bottom: 0.5rem;
-	margin-left:-20px;
-	width: 40px;
-	height: 48px;
+	margin-left:-1.25rem;
+	width: 2.5rem;
+	height: 3rem;
 	z-index: 999;
 }
 .wrap{
@@ -48,4 +52,15 @@ body,html{
 	opacity: .5;
 	background: url(../images/mask.png);
 	background-size: 100% 100%;
+}
+.pageTop .RectTitle{
+	position:absolute;
+	padding: 0.3rem 0.8rem;
+	background: #fff;
+	border:1px solid #000;
+	width: 2rem;
+	height: 9rem;
+	font-weight: 700;
+	line-height: 2.1rem;
+	font-size: 2rem;
 }
